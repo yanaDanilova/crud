@@ -22,7 +22,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 @SpringBootTest
-@ActiveProfiles("prod")
+@ActiveProfiles("test")
 public class UserManagementStepDef {
     @Autowired
     Environment environment;
